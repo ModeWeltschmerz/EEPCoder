@@ -1,0 +1,4 @@
+C:\Content\XamarinStudio\Projects\EEPCoder\EEPCoder\bin\Debug\EEPCoder.exe
+C:\Content\XamarinStudio\Projects\EEPCoder\EEPCoder\bin\Debug\EEPCoder.pdb
+C:\Content\XamarinStudio\Projects\EEPCoder\EEPCoder\obj\x86\Debug\EEPCoder.exe
+C:\Content\XamarinStudio\Projects\EEPCoder\EEPCoder\obj\x86\Debug\EEPCoder.pdb

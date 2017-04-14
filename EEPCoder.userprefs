@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{DE15AA2B-16A9-4EF7-8C54-C390BB7241AD}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EEPCoder\Templates.cs">
+    <Files>
+      <File FileName="EEPCoder\Program.cs" Line="37" Column="4" />
+      <File FileName="EEPCoder\Templates.cs" Line="93" Column="2" />
+      <File FileName="EEPCoder\Util.cs" Line="41" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EEPCoder PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
