@@ -35,7 +35,7 @@ namespace EEPCoder
 		{
 			return
 				"findpropstrict Qname(PrivateNamespace(null,\"100\"),\"addSmiley\")\n" +
-				$"pushbyte {id}\n" +
+				$"pushint {id}\n" +
 				$"pushstring \"{name}\"\n" +
 				"pushstring \"\"\n" + // no clue what this is
 				"getlex Qname(PackageNamespace(\"\"),\"smiliesBMD\")\n" +
@@ -74,14 +74,14 @@ namespace EEPCoder
 			return
 				"getlocal_1\n" +
 				"findpropstrict Qname(PrivateNamespace(null,\"100\"),\"createBrick\")\n" +
-				$"pushbyte {id}\n" +
+				$"pushint {id}\n" +
 				$"pushbyte {(int)layer}\n" +
 				$"getlex Qname(PrivateNamespace(null,\"100\"),\"{l}\")\n" +
 				$"pushstring \"{payvaultid}\"\n" +
 				$"pushbyte {(int)tab}\n" +
 				$"push{requiresOwnership.ToString ().ToLower ()}\n" +
 				$"push{drawShadow.ToString ().ToLower ()}\n" +
-				$"pushbyte {id}\n" +
+				$"pushint {id}\n" +
 				$"pushdouble {minimapColor}\n" +
 				$"push{requiresAdmin.ToString ().ToLower ()}\n" +
 				"callproperty Qname(PrivateNamespace(null, \"100\"),\"createBrick\") 10\n" +
